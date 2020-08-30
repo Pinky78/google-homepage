@@ -1,5 +1,5 @@
 * {
-
+    font-family: arial,sans-serif;
 }
 body {
 
@@ -41,8 +41,17 @@ body {
 
 }
 .left-side-nav {
+    text-decoration: none;
+    color: #000;
 
 }
 .right-side-nav {
-    
+    text-decoration: none;
+    color: #000;
+}
+.left-side-nav:hover {
+    text-decoration: underline;
+}
+.right-side-nav:hover  {
+    text-decoration: underline;
 }
